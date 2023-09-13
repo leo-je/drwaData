@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T06:26:04.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.7.4" etag="wp3pAlGDFiol8ASgaBjP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T08:52:26.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="MpBznrw3zgg_2azs5I_U" version="21.7.4" type="github">
   <diagram name="第 1 页" id="aTBB7dVWxHD60iIdt3bg">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="110" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bifWs_d4uF4lEAlKTn2x-2" target="bifWs_d4uF4lEAlKTn2x-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-20" value="add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bifWs_d4uF4lEAlKTn2x-19">
+          <mxGeometry x="-0.4343" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-2" value="生产者接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="143" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" source="bifWs_d4uF4lEAlKTn2x-3" target="bifWs_d4uF4lEAlKTn2x-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-11" value="save/update/log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bifWs_d4uF4lEAlKTn2x-9">
+          <mxGeometry x="0.0668" y="-2" relative="1" as="geometry">
+            <mxPoint x="48" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bifWs_d4uF4lEAlKTn2x-31" target="bifWs_d4uF4lEAlKTn2x-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-3" value="环形队列" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-4" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="740" y="530" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-10" value="任务状态处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-21" value="任务适配器1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-22" value="任务适配器1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-23" value="任务适配器1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="430" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bifWs_d4uF4lEAlKTn2x-3" target="bifWs_d4uF4lEAlKTn2x-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="490" as="sourcePoint" />
+            <mxPoint x="400" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-33" value="分发任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bifWs_d4uF4lEAlKTn2x-32">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint y="-75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bifWs_d4uF4lEAlKTn2x-31" value="任务分发器" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="285" y="420" width="50" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
